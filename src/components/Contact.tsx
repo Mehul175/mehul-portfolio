@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Phone, Send, Linkedin, Github, X, MessageCircle } from 'lucide-react';
+import { Mail, MapPin, Send, Linkedin, Github, X, MessageCircle } from 'lucide-react';
 import { useState } from 'react';
 
 const Contact = () => {
@@ -98,7 +98,7 @@ Sent from Portfolio Contact Form
             Get In Touch
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ready to work together? Let's discuss your next mobile app project
+            Ready to work together? Let&apos;s discuss your next mobile app project
           </p>
         </motion.div>
 
@@ -222,11 +222,11 @@ Sent from Portfolio Contact Form
             </div>
 
             <div className="card">
-              <h3 className="text-xl font-semibold mb-4">Let's work together</h3>
+              <h3 className="text-xl font-semibold mb-4">Let&apos;s work together</h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                I'm always interested in new opportunities and exciting projects. 
+                I&apos;m always interested in new opportunities and exciting projects. 
                 Whether you have a mobile app idea or need help with an existing project, 
-                I'd love to hear from you.
+                I&apos;d love to hear from you.
               </p>
               
               {/* Contact Buttons */}
@@ -306,7 +306,7 @@ Sent from Portfolio Contact Form
             <h3 className="text-2xl font-bold mb-4">Message Sent!</h3>
             <p className="text-muted-foreground mb-6">
               Thank you for reaching out! Your email client should have opened with a pre-filled message. 
-              Please send the email, and I'll get back to you within 24 hours.
+              Please send the email, and I&apos;ll get back to you within 24 hours.
             </p>
             
             <motion.button

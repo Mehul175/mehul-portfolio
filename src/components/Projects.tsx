@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ExternalLink, Smartphone } from 'lucide-react';
+import Image from 'next/image';
 
 const Projects = () => {
   const projects = [
@@ -127,13 +127,12 @@ const Projects = () => {
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                   >
-                    <img 
+                    <Image 
                       src="/play_store.svg" 
                       alt="Play Store" 
+                      width={16}
+                      height={16}
                       className="w-4 h-4"
-                      onError={(e) => {
-                        e.currentTarget.style.display = 'none';
-                      }}
                     />
                     Play Store
                   </motion.a>
@@ -144,13 +143,12 @@ const Projects = () => {
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                   >
-                    <img 
+                    <Image 
                       src="/app_store.svg" 
                       alt="App Store" 
+                      width={16}
+                      height={16}
                       className="w-4 h-4"
-                      onError={(e) => {
-                        e.currentTarget.style.display = 'none';
-                      }}
                     />
                     App Store
                   </motion.a>

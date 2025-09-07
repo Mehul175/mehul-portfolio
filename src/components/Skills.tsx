@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 // Using original web icons instead of Lucide React icons
 
 const Skills = () => {
@@ -103,41 +104,21 @@ const Skills = () => {
                   <div className="w-16 h-16 rounded-xl bg-white dark:bg-gray-100 flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110 border border-gray-200 dark:border-gray-300">
                     {skill.name === 'Payment Integration' ? (
                       <div className="flex items-center justify-center">
-                        <img 
+                        <Image 
                           src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/razorpay-icon.svg"
                           alt="Razorpay"
+                          width={40}
+                          height={40}
                           className="w-10 h-10 object-contain"
-                          onError={(e) => {
-                            e.currentTarget.style.display = 'none';
-                            const parent = e.currentTarget.parentElement;
-                            if (parent) {
-                              parent.innerHTML = '<div class="text-2xl font-bold text-blue-600">R</div>';
-                            }
-                          }}
                         />
                       </div>
                     ) : (
-                      <img 
+                      <Image 
                         src={skill.icon} 
                         alt={skill.name}
+                        width={40}
+                        height={40}
                         className="w-10 h-10 object-contain"
-                        onError={(e) => {
-                          // Try alternative icon sources
-                          const target = e.currentTarget;
-                          const skillName = skill.name.toLowerCase();
-                          
-                          if (skillName.includes('push')) {
-                            target.src = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg';
-                          } else if (skillName.includes('ci') || skillName.includes('cd')) {
-                            target.src = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg';
-                          } else if (skillName.includes('xcode')) {
-                            target.src = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg';
-                          } else if (skillName.includes('android')) {
-                            target.src = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg';
-                          } else {
-                            target.style.display = 'none';
-                          }
-                        }}
                       />
                     )}
                   </div>
