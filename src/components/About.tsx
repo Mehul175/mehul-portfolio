@@ -12,8 +12,8 @@ const About = () => {
   };
 
   const stats = [
-    { number: '3.5+', label: 'Years Experience', color: 'text-primary-600' },
-    { number: '6+', label: 'Apps Published', color: 'text-secondary-600' },
+    { number: '4+', label: 'Years Experience', color: 'text-primary-600' },
+    { number: '10+', label: 'Apps Published', color: 'text-secondary-600' },
     { number: 'Android & iOS', label: 'Platforms', color: 'text-accent-600' },
     { number: 'React Native', label: 'Expert', color: 'text-primary-600' },
   ];
@@ -47,7 +47,7 @@ const About = () => {
             <div className="card">
               <h3 className="text-2xl font-semibold mb-4">Professional Summary</h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Experienced React Native Developer with over 3.5+ years of expertise in designing and delivering 
+                Experienced React Native Developer with over 4+ years of expertise in designing and delivering 
                 innovative mobile applications. Skilled in collaborating with cross-functional teams to achieve 
                 project goals efficiently. Proven track record of writing clean, high-quality code and delivering 
                 scalable solutions within tight deadlines.

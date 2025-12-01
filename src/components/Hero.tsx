@@ -196,7 +196,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.8 }}
             className="text-lg md:text-xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed"
           >
-            Experienced React Native Developer with 3.5+ years of expertise in building high-quality mobile apps for iOS and Android.
+            Experienced React Native Developer with 4+ years of expertise in building high-quality mobile apps for iOS and Android.
           </motion.p>
 
           {/* CTA Buttons */}

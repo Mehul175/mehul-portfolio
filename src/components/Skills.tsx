@@ -13,6 +13,12 @@ const Skills = () => {
       description: 'Cross-platform mobile development',
       bgColor: 'bg-gradient-to-br from-blue-500 via-blue-600 to-cyan-500'
     },
+    {
+      name: 'TypeScript',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg',
+      description: 'Strongly typed programming language',
+      bgColor: 'bg-gradient-to-br from-blue-500 via-blue-600 to-cyan-500'
+    },
     { 
       name: 'JavaScript', 
       icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg',
@@ -68,8 +74,25 @@ const Skills = () => {
       description: 'Android development IDE',
       bgColor: 'bg-gradient-to-br from-green-600 via-green-700 to-emerald-600'
     },
+    {
+      name: 'Git/GitHub',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg',
+      description: 'Version control system',
+      bgColor: 'bg-gradient-to-br from-gray-500 via-gray-600 to-slate-500'
+    },
+    {
+      name: 'Figma',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg',
+      description: 'UI/UX design tool',
+      bgColor: 'bg-gradient-to-br from-pink-500 via-pink-600 to-rose-500'
+    },
+    {
+      name: 'Jira',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg',
+      description: 'Project management tool',
+      bgColor: 'bg-gradient-to-br from-blue-500 via-blue-600 to-cyan-500'
+    },
   ];
-
   return (
     <section id="skills" className="py-20">
       <div className="container">

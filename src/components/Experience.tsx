@@ -8,7 +8,7 @@ const Experience = () => {
     {
       company: 'WP Event Manager',
       position: 'React Native Developer',
-      duration: 'Mar 2024 - Present',
+      duration: 'Mar 2024 - Sep 2025',
       location: 'Surat, Gujarat',
       description: 'Working as a React-Native Developer, I contribute to building and enhancing mobile app features that complement the WP Event Manager platform, focusing on efficient and user-friendly event management solutions.',
       achievements: [
