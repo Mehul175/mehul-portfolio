@@ -152,7 +152,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 🌟 Live Demo
 
-Visit the live portfolio: [https://mehul175.github.io/mehul-portfolio](https://mehul175.github.io/mehul-portfolio)
+Visit the live portfolio: [https://mehulandani.me](https://mehulandani.me)
 
 ---
 
