@@ -46,12 +46,12 @@ const Projects = () => {
       emoji: '👥'
     },
     {
-      title: 'Newsbolt',
-      description: 'A mobile application where users can see news in forms of shorts. Channel feature is also available where users can create channel and upload shorts. Users can see news, share news, add comment, like news.',
-      tech: ['React Native', 'News Feed', 'Channel Management', 'Social Features'],
-      playStore: '#',
+      title: 'Leo Chats',
+      description: 'A social mobile application for making friends and having meaningful conversations. Users can connect through text or video calls, get personalized suggestions based on shared interests, and meet like-minded individuals from around the world in a safe and inclusive space.',
+      tech: ['React Native', 'Video Calling', 'Social Matching', 'Real-time Chat'],
+      playStore: 'https://play.google.com/store/apps/details?id=com.leochat&hl=en_IN',
       appStore: '#',
-      emoji: '📰'
+      emoji: '💬'
     }
   ];
 

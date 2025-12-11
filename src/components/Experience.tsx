@@ -26,7 +26,7 @@ const Experience = () => {
       description: 'Developed React Native mobile applications for both iOS and Android platforms. As a React Native Developer at Wordex Infotech, I developed and maintained high-quality mobile applications to meet client needs and project requirements.',
       achievements: [
         'Built XtendedSpace property rental app with Razorpay payment integration',
-        'Developed Newsbolt news app with channel management and social features',
+        'Developed Leo Chats social app with video calling and friend matching features',
         'Created scalable mobile applications for diverse client requirements',
         'Implemented payment systems and real-time features'
       ]
